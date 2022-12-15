@@ -9,6 +9,11 @@ Install dependencies:
 npm i
 ```
 
+Run tests:
+```shell
+npm t
+```
+
 Upload single file:
 ```
 http://localhost:3000/upload-single
