@@ -1,0 +1,24 @@
+{
+  "name": "fastify-upload-file",
+  "version": "1.0.0",
+  "description": "Example of how upload single and multiple files using Fastify.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/multipart": "^7.3.0",
+    "fastify": "^4.10.2"
+  },
+  "devDependencies": {
+    "form-auto-content": "^3.0.0",
+    "tap": "^16.3.2"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
